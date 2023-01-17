@@ -1,4 +1,4 @@
-@import "mixins";
+@import 'mixins';
 
 body {
   @include tp-14-16-400;
@@ -22,6 +22,10 @@ body {
 //  font-weight: 500;
 //  line-height: 24px;
 //}
+
+.tp-reset {
+  @include reset();
+}
 
 .tp-14-16-400 {
   @include tp-14-16-400;
@@ -63,7 +67,6 @@ body {
   @include tp-color-gray-900;
   font-family: 'Roboto', sans-serif;
   opacity: 1;
-
 }
 
 *::-moz-placeholder {

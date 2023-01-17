@@ -1,3 +1,5 @@
+@import 'mixins';
+
 html,
 body {
   height: 100%;
@@ -10,4 +12,8 @@ body {
 img {
   width: 100%;
   height: auto;
+}
+
+.btn-reset {
+  @include reset-button();
 }
