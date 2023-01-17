@@ -17,3 +17,7 @@ img {
 .btn-reset {
   @include reset-button();
 }
+
+.list-reset {
+  @include reset-list();
+}
